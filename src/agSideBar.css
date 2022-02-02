@@ -1,0 +1,26 @@
+.ag-side-bar {
+    flex-direction: row;
+}
+.ag-theme-alpine .ag-header-cell-menu-button:hover, .ag-theme-alpine .ag-side-button-button:hover, .ag-theme-alpine .ag-tab:hover, .ag-theme-alpine .ag-panel-title-bar-button:hover, .ag-theme-alpine .ag-header-expand-icon:hover, .ag-theme-alpine .ag-column-group-icons:hover, .ag-theme-alpine .ag-group-expanded .ag-icon:hover, .ag-theme-alpine .ag-group-contracted .ag-icon:hover, .ag-theme-alpine .ag-chart-settings-prev:hover, .ag-theme-alpine .ag-chart-settings-next:hover, .ag-theme-alpine .ag-group-title-bar-icon:hover, .ag-theme-alpine .ag-column-select-header-icon:hover, .ag-theme-alpine .ag-floating-filter-button-button:hover, .ag-theme-alpine .ag-filter-toolpanel-expand:hover, .ag-theme-alpine .ag-chart-menu-icon:hover {
+    color: black;
+    background-color: rgb(214, 255, 255);
+    border-radius: 15px;
+
+}
+.ag-side-button .ag-selected {
+    color: sandybrown;
+}
+.ag-theme-alpine .ag-rtl .ag-side-bar-left .ag-selected .ag-side-button-button, .ag-theme-alpine .ag-ltr .ag-side-bar-right .ag-selected .ag-side-button-button {
+    border-left-color: violet;
+}
+.ag-icon-custom-stats {
+    background: transparent
+      url(https://www.nicepng.com/png/detail/364-3645627_globe-icon-mog-url-icon-png.png)
+      no-repeat center;
+    background-size: 16px 16px;
+    height: 16px;
+    opacity: 0.87;
+    width: 16px;
+    max-width: 16px;
+    display: inline-block;
+  }
